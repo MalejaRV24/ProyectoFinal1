@@ -1,0 +1,45 @@
+/* Estilos personalizados */
+body {
+    padding-top: 56px;
+}
+
+header, footer {
+    background-color: #343a40;
+}
+
+header .container, footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header .input-group {
+    width: 50%;
+}
+
+footer {
+    padding: 1rem 0;
+}
+
+footer h5 {
+    margin-bottom: 1rem;
+}
+
+footer ul {
+    padding: 0;
+    list-style: none;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
+
