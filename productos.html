@@ -13,7 +13,7 @@
     <!-- Encabezado -->
     <header class="bg-dark text-white py-3">
         <div class="container d-flex justify-content-between align-items-center">
-            <h1 class="h3">Tienda en Línea</h1>
+            <h1 class="h3">HK STORE</h1>
             <div class="input-group w-50">
                 <input type="text" class="form-control" placeholder="Buscar productos...">
                 <div class="input-group-append">
@@ -28,14 +28,15 @@
 
     <!-- Navegación -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container">            
+        <div class="container">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
-                    <a class="navbar-brand" href="index.html">Inicio</a>
-                    <li class="nav-item"><a class="nav-link" href="productos.html">Productos</a></li>
+                    <!--<li class="nav-item"><a class="nav-link" href="contact.html">Inicio</a></li>-->
+                    <li class="nav-item"><a class="nav-link " href="index.html">Inicio</a></li>
+                    <a class="navbar-brand" href="productos.html">Productos</a>
                     <li class="nav-item"><a class="nav-link" href="about.html">Nosotros</a></li>
                     <li class="nav-item"><a class="nav-link" href="contact.html">Contacto</a></li>
                 </ul>
@@ -46,33 +47,42 @@
     <!-- Contenido Principal -->
     <main class="container my-5">
         <!-- Banner Promocional -->
-        <section class="jumbotron text-center">
-            <h2>Oferta del Día</h2>
-            <p class="lead">Descuentos increíbles en productos seleccionados</p>
-        </section>
-
         <!-- Lista de Productos -->
         <section>
-            <h2>Productos Destacados</h2>
+            <!--producto 1-->
             <div class="row">
                 <div class="col-md-4">
                     <div class="card mb-4 shadow-sm">
-                        <img src="producto1.jpg" class="card-img-top" alt="Producto 1">
+                        <img src="assets/img/intel/intel G13580S.png" class="card-img-top" alt="Producto 1">
                         <div class="card-body">
-                            <h5 class="card-title">Producto 1</h5>
-                            <p class="card-text">$10.00</p>
+                            <h5 class="card-title">EQUIPO POWER GROUP INTEL<br>G13580S</h5>
+                            <p class="card-text">$2.500.0000</p>
                             <div class="d-flex justify-content-between align-items-center">
                                 <button class="btn btn-sm btn-outline-secondary add-to-cart" data-product="Producto 1" data-price="10.00">Añadir al carrito</button>
                             </div>
                         </div>
                     </div>
                 </div>
+                <!--producto 2-->
                 <div class="col-md-4">
                     <div class="card mb-4 shadow-sm">
-                        <img src="producto2.jpg" class="card-img-top" alt="Producto 2">
+                        <img src="assets/img/amd/adm R77682SL.png" class="card-img-top" alt="Producto 2">
                         <div class="card-body">
-                            <h5 class="card-title">Producto 2</h5>
-                            <p class="card-text">$20.00</p>
+                            <h5 class="card-title">EQUIPO POWER GROUP AMD<br> R77682SL</h5>
+                            <p class="card-text">$2.800.000</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <button class="btn btn-sm btn-outline-secondary add-to-cart" data-product="Producto 2" data-price="20.00">Añadir al carrito</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--producto 3-->
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <img src="assets/img/mesas/mesa.png" class="card-img-top" alt="Producto 2">
+                        <div class="card-body">
+                            <h5 class="card-title">MESA POWER GROUP<br>BY-5</h5>
+                            <p class="card-text">$600.000</p>
                             <div class="d-flex justify-content-between align-items-center">
                                 <button class="btn btn-sm btn-outline-secondary add-to-cart" data-product="Producto 2" data-price="20.00">Añadir al carrito</button>
                             </div>
@@ -117,5 +127,3 @@
     <script src="scripts.js"></script>
 </body>
 </html>
-
-
