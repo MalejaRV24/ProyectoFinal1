@@ -22,7 +22,11 @@ header .input-group {
 }
 
 footer {
-    padding: 1rem 0;
+    background-color: #333;
+    color: white;
+    padding: 2em 0;
+    display: flex;
+    justify-content: space-around;
 }
 
 footer h5 {

@@ -14,14 +14,16 @@
     <header class="bg-dark text-white py-3">
         <div class="container d-flex justify-content-between align-items-center">
             <h1 class="h3">HK STORE</h1>
+            <!--
             <div class="input-group w-50">
                 <input type="text" class="form-control" placeholder="Buscar productos...">
                 <div class="input-group-append">
                     <button class="btn btn-primary" type="button">Buscar</button>
                 </div>
             </div>
+            -->
             <div>
-                <a href="cart.html" class="text-white mx-2" id="cart-count">Carrito (0)</a>
+                <a href="carrito.html" class="text-white mx-2" id="cart-count">Carrito (0)</a>
             </div>
         </div>
     </header>
@@ -52,7 +54,7 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="card mb-4 shadow-sm">
-                        <img src="assets/img/intel/intel G13580S.png" class="card-img-top" alt="Producto 1">
+                        <a href="intelG13580S.html"><img src="assets/img/intel/intel G13580S.png" class="card-img-top" alt="Producto 1"></a> 
                         <div class="card-body">
                             <h5 class="card-title">EQUIPO POWER GROUP INTEL<br>G13580S</h5>
                             <p class="card-text">$2.500.0000</p>
@@ -65,9 +67,9 @@
                 <!--producto 2-->
                 <div class="col-md-4">
                     <div class="card mb-4 shadow-sm">
-                        <img src="assets/img/amd/adm R77682SL.png" class="card-img-top" alt="Producto 2">
+                        <a href="amdR77682SL.html"><img src="assets/img/amd/adm R77682SL.png" class="card-img-top" alt="Producto 2"></a>
                         <div class="card-body">
-                            <h5 class="card-title">EQUIPO POWER GROUP AMD<br> R77682SL</h5>
+                            <h5 class="card-title">EQUIPO POWER GROUP AMD<br> R7682SL</h5>
                             <p class="card-text">$2.800.000</p>
                             <div class="d-flex justify-content-between align-items-center">
                                 <button class="btn btn-sm btn-outline-secondary add-to-cart" data-product="Producto 2" data-price="20.00">Añadir al carrito</button>
@@ -78,7 +80,7 @@
                 <!--producto 3-->
                 <div class="col-md-4">
                     <div class="card mb-4 shadow-sm">
-                        <img src="assets/img/mesas/mesa.png" class="card-img-top" alt="Producto 2">
+                        <a href="mesa.html"><img src="assets/img/mesas/mesa.png" class="card-img-top" alt="Producto 2"></a>
                         <div class="card-body">
                             <h5 class="card-title">MESA POWER GROUP<br>BY-5</h5>
                             <p class="card-text">$600.000</p>
@@ -92,41 +94,20 @@
             </div>
         </section>
     </main>
-
-    <!-- Pie de Página -->
-    <footer class="bg-dark text-white py-4">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <h5>Sobre Nosotros</h5>
-                    <p>Información sobre la tienda en línea.</p>
-                </div>
-                                <!--
-                enlaces externos
-                <div class="col-md-4">
-                    <h5>Enlaces Útiles</h5>
-                    <ul class="list-unstyled">
-                        <li><a href="terms.html" class="text-white">Términos y Condiciones</a></li>
-                        <li><a href="privacy.html" class="text-white">Política de Privacidad</a></li>
-                        <li><a href="help.html" class="text-white">Ayuda</a></li>
-                    </ul>
-                </div>
-                -->
-
-                <div class="col-md-4">
-                    <h5>Contacto</h5>
-                    <p>Email: contacto@tiendaenlinea.com</p>
-                    <p>Teléfono: +1 234 567 890</p>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <!-- jQuery, Popper.js y Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <!-- Archivo JavaScript personalizado -->
-    <script src="scripts.js"></script>
 </body>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Todos los derechos reservados.</p>
+        <p>
+          <a href="#" class="text-white text-decoration-none">Política de Privacidad</a> |
+          <a href="#" class="text-white text-decoration-none">Términos y Condiciones</a>
+        </p>
+     </footer>
+    <!-- Popper.js y Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <!-- Archivo JavaScript personalizado -->
+    <script src="assets/js/scripts.js"></script>
+
 </html>
