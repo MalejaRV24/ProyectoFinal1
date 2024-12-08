@@ -28,6 +28,7 @@ HK-STORE es una página web diseñada para ofrecer una experiencia de compra en 
 - **HTML5**: Para la estructura de las páginas.
 - **CSS3 y Bootstrap 5.3.3**: Para el diseño y la responsividad.
 - **JavaScript**: Para la interacción dinámica con el usuario.
+- - **Figma**: Para el diseño de la página
 
 ## Estructura principal del proyecttodel Proyecto
 - **`index.html`**: Página principal con el carrusel de imágenes y los productos destacados.
