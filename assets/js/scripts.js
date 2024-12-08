@@ -14,6 +14,7 @@ function addToCart(event) {
     const button = event.target;
     const product = button.getAttribute('data-product');
     const price = parseFloat(button.getAttribute('data-price'));
+    const image = button.getAttribute('data-image');  // Agregar la URL de la imagen
 
     let cart = JSON.parse(localStorage.getItem('cart')) || [];
 
@@ -53,14 +54,17 @@ function renderCartItems() {
         const listItem = document.createElement('li');
         listItem.classList.add('list-group-item', 'd-flex', 'justify-content-between', 'align-items-center');
         listItem.innerHTML = `
-            ${item.product} - $${item.price.toFixed(2)} x ${item.quantity} = $${item.totalPrice.toFixed(2)}
+            <div class="d-flex">
+                <img src="${item.image}" alt="${item.product}" style="width: 50px; height: 50px; object-fit: cover; margin-right: 10px;">
+                <span>${item.product} - ${formatCurrency(item.price)} x ${item.quantity} = ${formatCurrency(item.totalPrice)}</span>
+            </div>
             <button class="btn btn-danger btn-sm" onclick="removeFromCart('${item.product}')">Eliminar</button>
         `;
         cartItemsElement.appendChild(listItem);
         total += item.totalPrice;
     });
 
-    document.getElementById('total').textContent = total.toFixed(2);
+    document.getElementById('total').textContent = formatCurrency(total);
 }
 
 function removeFromCart(product) {
@@ -79,5 +83,7 @@ document.getElementById('boton-vaciar').addEventListener('click', () => {
     renderCartItems();
 });
 
-
+function formatCurrency(amount) {
+    return new Intl.NumberFormat('es-CO', { style: 'currency', currency: 'COP' }).format(amount);
+}
 

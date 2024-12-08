@@ -17,82 +17,73 @@
             <div>
                 <a href="carro.html" class="text-white mx-2" id="cart-count">Carrito (0)</a>
             </div>
+        </div>
     </header>
 
-<!-- Navegación -->
+    <!-- Navegación -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container">            
+        <div class="container">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
-                    <a class="navbar-brand" href="index.html">Inicio</a>
-                    <li class="nav-item"><a class="nav-link" href="productos.html">Productos</a></li>
+                    <li class="nav-item"><a class="nav-link " href="index.html">Inicio</a></li>
+                    <a class="navbar-brand" href="productos.html">Productos</a>
                     <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
                     <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
                 </ul>
             </div>
         </div>
-    </nav>
-
+    </nav>
     <!-- Contenido Principal -->
-    <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
-    <div class="carousel-inner">
-        <div class="carousel-item active">
-        <a href="productos.html"><img src="assets/img/publicidad/intel1.png" class="d-block w-100" alt="PROMO"></a>
-        </div>
-        <div class="carousel-item">
-        <a href="productos.html"><img src="assets/img/publicidad/mesaG.png" class="d-block w-100" alt="MESA"></a>
-        </div>
-        <div class="carousel-item">
-        <a href="productos.html"><img src="assets/img/publicidad/p3.png" class="d-block w-100" alt="..."></a>
-        </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-    </button>
-    </div>
-    </br>
-
-    <main>
-        <section class="product-list">
-            <h2>Productos Destacados</h2>
-    </main>
-    <br>
-        <main>
-       <!-- Lista de Productos -->
-        <section class="product-list">
-            <div class="product">
-                <a href="amdR77682SL.html"><img src="assets/img/publicidad/p1.png" class="card-img-top full-img" alt="Producto 1"/></a>
-            </div>
-            <div class="product">
-                <a href="intelG13580S.html"><img src="assets/img/publicidad/p2.png" class="card-img-top full-img" alt="Producto 2"/></a>
-            </div>
+    <main class="container my-5">
+        <!-- Lista de Productos -->
+        <section>
+            <div class="container text-start">
+                <div class="row align-items-start">
+                  <div class="col">
+                    <a href="amdR77682SL.html"><img src="assets/img/amd/adm R77682SL.png" class="card-img-top" alt="Producto 1"></a>
+                  </div>
+                  <div class="col">
+                    <h5>EQUIPO POWER GROUP AMD R7682SL</h5>
+                        <p class="card-text">
+                            Este equipo gamer <strong>Power Group AMD R7682SL</strong>
+                            está diseñado para ofrecer un rendimiento excepcional, juegos AAA o productividad.
+                        </p>
+                        <h6>Características del producto:</h6>
+                        <ul>
+                            <li><strong>Caja:</strong> ATX Power Group L18</li>
+                            <li><strong>Procesador:</strong> AMD RYZEN 5 7600 3.80GHZ</li>
+                            <li><strong>Board:</strong> ASUS PRIME B650M-A WIFI, placa madre</li>
+                            <li><strong>Puertos:</strong> HDMI, VGA, USB 2.0 y USB 3.2</li>
+                            <li><strong>Memoria:</strong> ADATA 8GB DDR4 3200MHz</li>
+                            <li><strong>Almacenamiento:</strong> SSD HIKVISION 512GB M.2 PCIE</li>
+                            <li><strong>Combo:</strong> Incluye teclado y mouse.</li>
+                        </ul>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <button class="btn btn-sm btn-outline-secondary add-to-cart" data-product="EQUIPO POWER GROUP AMD R7682SL" data-price="2800000" data-image="assets/img/amd/adm R77682SL.png">Añadir al carrito</button>
+                        </div>
+                  </div>                                   
+                </div>                
+            </div>            
         </section>
     </main>
+</body>
     
-
-    <!-- Pie de Página -->
     <footer class="bg-dark text-white text-center py-3">
         <p>&copy; 2024 Todos los derechos reservados.</p>
         <p>
           <a href="#" class="text-white text-decoration-none">Política de Privacidad</a> |
           <a href="#" class="text-white text-decoration-none">Términos y Condiciones</a>
         </p>
-      </footer>
+
+     </footer>
     <!-- Popper.js y Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" ></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
     <!-- Archivo JavaScript personalizado -->
     <script src="assets/js/scripts.js"></script>
-</body>
+
 </html>
-
-

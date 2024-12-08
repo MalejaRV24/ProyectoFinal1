@@ -3,13 +3,18 @@ body {
     padding-top: 56px;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 header, footer {
     background-color: #343a40;
     padding: 10px 0;
 }
-
+main {
+    flex: 1;
+}
 header .container, footer .container {
     display: flex;
     justify-content: space-between;
@@ -30,6 +35,7 @@ footer {
     padding: 2em 0;
     display: flex;
     justify-content: space-around;
+    margin-top: auto;  
 }
 
 footer h5 {
