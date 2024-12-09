@@ -20,15 +20,11 @@ HK-STORE es una página web diseñada para ofrecer una experiencia de compra en 
 - Estructura de archivos bien organizada para facilitar la actualización de imágenes, estilos y scripts.
 - Uso de estilos personalizados a través de `style.css` y scripts específicos en `scripts.js`.
 
-### Seguridad
-- Uso de HTTPS para garantizar la seguridad de los datos.
-- Enlace a políticas de privacidad y términos y condiciones.
-
 ## Tecnologías Utilizadas
 - **HTML5**: Para la estructura de las páginas.
 - **CSS3 y Bootstrap 5.3.3**: Para el diseño y la responsividad.
 - **JavaScript**: Para la interacción dinámica con el usuario.
-- - **Figma**: Para el diseño de la página
+- - **Figma**: Para hacer el boceto del diseño de la página
 
 ## Estructura principal del proyecttodel Proyecto
 - **`index.html`**: Página principal con el carrusel de imágenes y los productos destacados.
@@ -37,15 +33,8 @@ HK-STORE es una página web diseñada para ofrecer una experiencia de compra en 
 - **`assets/js/scripts.js`**: Archivo JavaScript para manejar la lógica de interacción dinámica.
 - **`assets/img/`**: Directorio que contiene imágenes utilizadas en el sitio.
 -**`carro.html`**: Funcion del carrito de compra
-
-## Próximos Pasos
-- Implementar un sistema de búsqueda de productos.
-- Agregar funcionalidades de inicio de sesión para clientes.
-- Expandir las estadísticas y herramientas de seguimiento del sitio para mejorar la experiencia del usuario.
+-**`pago.html`**: El proceso de pago de los productos.
 
 ## Contacto
 Para consultas o soporte técnico, por favor envíe un correo a [soporte@hkstore.com](mailto:soporte@hkstore.com).
 
----
-
-Este proyecto está en constante desarrollo, y agradecemos cualquier sugerencia para mejorarlo.
