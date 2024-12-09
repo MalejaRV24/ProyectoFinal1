@@ -38,3 +38,10 @@ HK-STORE es una página web diseñada para ofrecer una experiencia de compra en 
 ## Contacto
 Para consultas o soporte técnico, por favor envíe un correo a [soporte@hkstore.com](mailto:soporte@hkstore.com).
 
+## Despliegue
+
+Este sitio está desplegado usando [GitHub Pages](https://pages.github.com/).
+
+Puedes ver el sitio en la siguiente URL:
+
+(https://malejarv24.github.io/ProyectoFinal1/)
